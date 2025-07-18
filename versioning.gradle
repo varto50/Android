@@ -12,6 +12,7 @@ ext {
         (major * 10_000_000) + (minor * 10_000) + (patch * 1_000) + versionCode
     }
 
+
     getVersionName = {
         def props = new Properties()
         file("$rootDir/app/version/version.properties").withInputStream { props.load(it) }
