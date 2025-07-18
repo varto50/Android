@@ -31,6 +31,6 @@ dependencies {
 }
 
 android {
-    namespace 'com.duckduckgo.settings.api'
+    namespace 'com.duckduckgo.settings.api
 }
 
